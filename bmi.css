@@ -1,0 +1,48 @@
+
+
+
+
+#background{
+    position: relative;
+    background-image: url('https://lh3.googleusercontent.com/p/AF1QipPvl5i2-Yg9l2Xg9NIq-GCg69lBHpCyQYxruLCD=w1080-h608-p-no-v0');
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    color:white;
+    font-family: sans-serif;
+    background-color: skyblue;
+}
+span{
+    color:red;
+}
+.wrapper{
+    position: absolute;
+    top:45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 15px;
+    background: rgb(91, 87, 87);
+    border-radius: 5px;
+    box-shadow: rgb(214, 222, 231) 0px 20px 30px -10px;
+    
+}
+input{
+    outline: none;
+    border:none;
+    padding: 5px;
+}
+button{
+    
+    color:white;
+    padding: 10px;
+    border:2px solid white;
+    background: black;
+    display:block;
+    margin-top: 10%;
+    cursor: pointer;
+}
